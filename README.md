@@ -7,7 +7,7 @@ This repo demonstrates that for interactive/guided segmentation, the GrabCut alg
 [[Link to Demo]](https://youtu.be/OfJX4Zb534g "Click to watch")
 
 # Overview of the pipeline
-![Alt text](full_interactive_segmentation.jpg)
+![Alt text](full_pipeline.png)
 
 ## 🚀 Features
 
