@@ -1,4 +1,4 @@
-#🐒🐘🐂GrabCut-ResNet50-For-Interactive-Mammal-Segmentation-And-Recognition🤖
+# 🐒🐘🐂GrabCut-ResNet50-For-Interactive-Mammal-Segmentation-And-Recognition🤖
 
 This repo demonstrates that for interactive/guided segmentation, the GrabCut algorithm based on Probabilistic Graphical Models is a computationally cheaper alternative compared to other neural network based models trained for the same task. After GrabCut is used to interactively segment a mammal from a scene, ResNet-50 is used to recognise it.
 
