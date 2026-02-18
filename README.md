@@ -8,3 +8,10 @@ This repo demonstrates that for interactive/guided segmentation, the GrabCut alg
 
 # Overview of the pipeline
 ![Alt text](interactive_mammal_recognition.png)
+
+## 🚀 Features
+
+* **GrabCut for Interactive Segmentation**: A **Gaussian Mixture Model** based probabilistic algorithm for **interactive object segmentation**.
+* **ResNet-50 for Multi-Class classification among 45 mammals**: **Transfer Learning** was used to obtain a validation accuracy of **95.6%**.
+* **Streamlit based Interactive Web-UI**: For **demo** purposes.
+---
