@@ -34,3 +34,17 @@ This repo demonstrates that for interactive/guided segmentation, the GrabCut alg
 ├── resnet_50_inference.py   # Code that takes care of downstream mammal label prediction post GrabCut segmentation.
 ├── labels.txt   # class labels for the dataset which the model should be finetuned on.
 ├── 95.6_val_acc.pth # Post Transfer Learning ResNet-50 weights file.
+```
+
+## 🔧 Running Dependency
+
+Download the weights file **95.6_val_acc.pth** from the link [[Link to download]](https://drive.google.com/file/d/1y_RDATb1K807lt3YiEYhinaH1e2-niSd/view?usp=drive_link).
+
+Place this file inside your project directory.
+
+   ```bash
+   ├── dir/
+       ├── resnet_50_inference.py.dat
+       ├── segmentation_utils.py
+       ├── 95.6_val_acc.pth # weights file in the same project directory as the other files.
+   ```
