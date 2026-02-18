@@ -58,7 +58,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🙌 Acknowledgements
 
 * [ResNet-50](https://arxiv.org/abs/1512.03385) - The ResNet-50 **Research Paper** which emphasized the use of **Residual/Skip Connection** blocks which yields tremendous performance benifits without **overfitting**.
-* [Special Thanks](https://github.com/mdzahirdu/face-detection-mtcnn-cropping-pipeline) - Another repo that contains a clean implementation of using the **GrabCut Algorithm** from scratch.
+* [Special Thanks](https://github.com/jiviteshjain/grabcut) - Another repo that contains a clean implementation of using the **GrabCut Algorithm** from scratch.
 ---
 
 ### ⭐ If you find this project helpful, don’t forget to star the repo!
