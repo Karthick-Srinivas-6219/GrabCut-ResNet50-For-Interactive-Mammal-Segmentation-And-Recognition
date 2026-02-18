@@ -1,0 +1,7 @@
+ipykernel
+streamlit
+tqdm
+numpy
+opencv-python
+matplotlib
+scikit-learn
