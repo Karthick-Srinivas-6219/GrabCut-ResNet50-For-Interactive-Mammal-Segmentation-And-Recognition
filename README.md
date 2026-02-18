@@ -15,3 +15,22 @@ This repo demonstrates that for interactive/guided segmentation, the GrabCut alg
 * **ResNet-50 for Multi-Class classification among 45 mammals**: **Transfer Learning** was used to obtain a validation accuracy of **95.6%**.
 * **Streamlit based Interactive Web-UI**: For **demo** purposes.
 ---
+
+## 📂 Project Structure
+
+```bash
+.
+├── model_input/                   # The cache where the GrabCut segmented result is stored for downstream ResNet-50 inference.
+       ├── input_crop.png # the cropped segment that ResNet-50 infers on.
+├── test_images/                   # Some test images to test the interactive mammal recognition pipeline.
+       ├── seg_test1.png
+       ├── seg_test2.png
+       ├── seg_test3.png
+├── requirements.txt      # Python dependencies.
+├── app_pipeline.ipynb     # Code that runs the entire pipeline: i/p --> GrabCut segmentation --> ResNet-50 inference.
+├── resnet_50_finetune.ipynb  # Code that finetunes ResNet-50 on 45 mammal classes using Transfer Learning.
+├── app.py            # A Streamlit demo of the entire project.
+├── segmentation_utils.py   # Some utility functions that enables mammal segment region generation & caching via. GrabCut from the user supplied ROI bounding box.
+├── resnet_50_inference.py   # Code that takes care of downstream mammal label prediction post GrabCut segmentation.
+├── labels.txt   # class labels for the dataset which the model should be finetuned on.
+├── 95.6_val_acc.pth # Post Transfer Learning ResNet-50 weights file.
